@@ -1,0 +1,129 @@
+
+
+a {color: #36C;}
+button {color: #36C;}
+a:hover {color: #06F;}
+body {
+	font-family:'Microsoft JhengHei UI';
+}
+
+body {
+	//background-image: url('img/bg.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	font: normal 62.5% "Lucida Sans Unicode",sans-serif;
+}
+p,blockquote,ul {margin-bottom: 0em;}
+
+h1 {font: normal 1.6em serif;}
+
+h2 {
+	font: bold 1em Verdana,serif;
+	margin: 3px 0 1px;
+}
+
+ul {margin-left: 1.8em;}
+
+
+
+/* misc */
+.clearer {clear: both;}
+
+.left {float: left;}
+
+.right {float: right;}
+
+img.left {margin: 0 18px 6px 0;}
+
+.divider {
+	background: url('img/divider.gif') no-repeat;
+	height: 20px;
+	margin: 24px 0;
+}
+
+/* structure */
+.container {
+	//background: url('img/bgcontainer.jpg') no-repeat center ;
+	margin: 0 auto;
+	width: 736px;
+}
+
+
+.top {
+	background: url('img/second.jpg') no-repeat 0 -4%;
+	float: left;
+	text-align: center;
+	width: 632px;
+}
+
+.header {
+	background: url('img/header.jpg') no-repeat center;
+	//color: #FFC;
+	text-align: left;
+	font-size: 1em;
+	height: 280px;
+	padding-right: 240px;
+	padding-left: 25px;
+	
+}
+
+.header h1 {
+	font: normal 3.2em serif,sans-serif;
+	padding: 62px 0 10px 0;
+}
+
+
+/* navigation */
+.navigation {margin: 0 24px;}
+
+	.navigation a {
+		color: #6C7151;
+		font: normal 1.9em serif;
+		line-height: 50px;
+		margin: 0 16px;
+		text-decoration: none;
+		border: 1px solid;
+		border-radius: 10px;
+		padding: 0 5px 0 5px;
+	}
+.navigation a:hover,.navigation #selected {
+	color: #2C3111;
+}
+
+.item {
+	background: url('img/bgcontainer.jpg') no-repeat -1%;
+	background-size: 632px 500px;
+	text-align: left;
+	font-size: 1em;
+	float: left;
+	height: 550px;
+	padding-right: 8px;
+	padding-left: 10px;
+	clear: both;
+}
+
+.products {
+	text-align: start;
+	padding-top: 35px;
+	padding-right: 220px;
+	padding-left: 10px;
+}
+
+	.products button {
+		color: #000000;
+		//font: normal 1.5em serif;
+		line-height: 25px;
+		margin: 0 8px;
+		text-decoration: none;
+		border:1px solid;
+		border-radius:10px;
+		padding: 0 5px 0 5px;
+		background-color: #82FFFF;
+	}
+.products button:hover, .products #selected {
+			color: #696969;
+}
+
+
